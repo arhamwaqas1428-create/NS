@@ -78,7 +78,7 @@ export function ProductRecommender() {
                 <FormLabel className="text-base">What are you looking for?</FormLabel>
                 <FormControl>
                   <Textarea
-                    placeholder='e.g., "I need a stylish but comfortable outfit for a friend\'s daytime wedding."'
+                    placeholder="e.g., &quot;I need a stylish but comfortable outfit for a friend's daytime wedding.&quot;"
                     className="resize-none"
                     {...field}
                   />
