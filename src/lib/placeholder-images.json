@@ -37,12 +37,6 @@
       "imageHint": "kurti product"
     },
     {
-      "id": "dw05",
-      "description": "A modern hoodie on a hanger.",
-      "imageUrl": "https://images.unsplash.com/photo-1591047139829-d916bb69a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-      "imageHint": "hoodie product"
-    },
-    {
       "id": "dw06",
       "description": "A pair of well-fitted trousers",
       "imageUrl": "https://images.unsplash.com/photo-1633963643586-1a39077623be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwdHJvdXNlcnN8ZW58MHx8fHwxNzcxNjgzMzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -77,6 +71,12 @@
       "description": "Festive Pakistani attire.",
       "imageUrl": "https://images.unsplash.com/photo-1617296317215-49272522c07b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
       "imageHint": "pakistani dress"
+    },
+    {
+      "id": "ow06",
+      "description": "Elegant Sharara Suit for events.",
+      "imageUrl": "https://images.unsplash.com/photo-1630491681575-3c1d2d85743b?auto=format&fit=crop&w=687&q=80",
+      "imageHint": "sharara suit"
     }
   ]
 }

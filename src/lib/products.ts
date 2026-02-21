@@ -57,14 +57,6 @@ const allProductsData = [
     itemType: 'Kurti',
   },
   {
-    id: 'dw05',
-    name: 'Metro Comfort Hoodie',
-    price: 'PKR 4,500',
-    imageId: 'dw05',
-    category: 'daily',
-    itemType: 'Hoodie / light outerwear',
-  },
-  {
     id: 'dw06',
     name: 'Boulevard Trousers',
     price: 'PKR 2,900',
@@ -111,6 +103,14 @@ const allProductsData = [
     imageId: 'ow05',
     category: 'occasional',
     itemType: 'Festive wear',
+  },
+  {
+    id: 'ow06',
+    name: 'Opulent Sharara Suit',
+    price: 'PKR 13,500',
+    imageId: 'ow06',
+    category: 'occasional',
+    itemType: 'Sharara Suit',
   },
 ];
 
