@@ -1,3 +1,82 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Elegant fashion shot for hero section",
+      "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWx8ZW58MHx8fHwxNzcxNTk2NDMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion model"
+    },
+    {
+      "id": "ai-assistant-bg",
+      "description": "Abstract and stylish background for AI section",
+      "imageUrl": "https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmYWJyaWMlMjB0ZXh0dXJlfGVufDB8fHx8MTc3MTYxMjQ5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fabric texture"
+    },
+    {
+      "id": "dw01",
+      "description": "A model wearing a casual blue shirt",
+      "imageUrl": "https://images.unsplash.com/photo-1595274168829-d6ced89a669b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMGNhc3VhbHxlbnwwfHx8fDE3NzE2ODMzMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman casual"
+    },
+    {
+      "id": "dw02",
+      "description": "A minimalist t-shirt on a hanger",
+      "imageUrl": "https://images.unsplash.com/photo-1633966887768-64f9a867bdba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0c2hpcnQlMjBmYXNoaW9ufGVufDB8fHx8MTc3MTY4MzMwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tshirt fashion"
+    },
+    {
+      "id": "dw03",
+      "description": "A woman in a stylish everyday dress",
+      "imageUrl": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMGRyZXNzfGVufDB8fHx8MTc3MTY4MzMwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman dress"
+    },
+    {
+      "id": "dw04",
+      "description": "Close-up of a traditional Kurti",
+      "imageUrl": "https://images.unsplash.com/photo-1633193231840-e8fcfcead786?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwYWtpc3RhbmklMjBmYXNoaW9ufGVufDB8fHx8MTc3MTY4MzMwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pakistani fashion"
+    },
+    {
+      "id": "dw05",
+      "description": "A person wearing a modern hoodie",
+      "imageUrl": "https://images.unsplash.com/photo-1626153870488-81683f6752fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob29kaWUlMjBzdHlsZXxlbnwwfHx8fDE3NzE2ODMzMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hoodie style"
+    },
+    {
+      "id": "dw06",
+      "description": "A pair of well-fitted trousers",
+      "imageUrl": "https://images.unsplash.com/photo-1633963643586-1a39077623be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwdHJvdXNlcnN8ZW58MHx8fHwxNzcxNjgzMzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion trousers"
+    },
+    {
+      "id": "ow01",
+      "description": "A woman in a beautiful formal dress",
+      "imageUrl": "https://images.unsplash.com/photo-1710023209229-ec9877bbb95b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxldmVuaW5nJTIwZ293bnxlbnwwfHx8fDE3NzE2NTE0OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "evening gown"
+    },
+    {
+      "id": "ow02",
+      "description": "An intricate designer outfit for occasions",
+      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBmYXNoaW9ufGVufDB8fHx8MTc3MTYxMjE4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luxury fashion"
+    },
+    {
+      "id": "ow03",
+      "description": "Luxury pret wear with fine details",
+      "imageUrl": "https://images.unsplash.com/photo-1559802822-76df075baeff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcmV0JTIwd2VhcnxlbnwwfHx8fDE3NzE2ODMzMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pret wear"
+    },
+    {
+      "id": "ow04",
+      "description": "A heavily embroidered dress",
+      "imageUrl": "https://images.unsplash.com/photo-1590272939560-b61891345b50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxlbWJyb2lkZXJlZCUyMGRyZXNzfGVufDB8fHx8MTc3MTY4MzMwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "embroidered dress"
+    },
+    {
+      "id": "ow05",
+      "description": "A model in festive Pakistani attire",
+      "imageUrl": "https://images.unsplash.com/photo-1756694915631-95ad04a931b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmVzdGl2ZSUyMHdlYXJ8ZW58MHx8fHwxNzcxNjgzMzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "festive wear"
+    }
+  ]
 }
