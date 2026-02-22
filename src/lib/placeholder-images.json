@@ -39,7 +39,7 @@
     {
       "id": "ow01",
       "description": "A sharp black two-piece suit with a white dress shirt and slim black tie.",
-      "imageUrl": "https://images.unsplash.com/photo-1593005510531-c8494de7448d?auto=format&fit=crop&w=687&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=687&q=80",
       "imageHint": "black suit"
     },
     {
@@ -51,19 +51,19 @@
     {
       "id": "ow03",
       "description": "Deep navy tailored suit with white shirt and matching tie.",
-      "imageUrl": "https://images.unsplash.com/photo-1617127354924-3c8736444530?auto=format&fit=crop&w=687&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1583394822736-4485d4522987?auto=format&fit=crop&w=687&q=80",
       "imageHint": "navy suit"
     },
     {
       "id": "ow04",
       "description": "Light grey suit with a black open-collar shirt and pocket square.",
-      "imageUrl": "https://images.unsplash.com/photo-1564328570530-3e27a72a76d8?auto=format&fit=crop&w=687&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1603344288888-e390c1015c7e?auto=format&fit=crop&w=687&q=80",
       "imageHint": "grey suit"
     },
     {
       "id": "ow05",
       "description": "Rich brown suit with black shirt for a sophisticated evening look.",
-      "imageUrl": "https://images.unsplash.com/photo-1621217315412-f0c2a5712136?auto=format&fit=crop&w=687&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1617922001530-5932959f6b47?auto=format&fit=crop&w=687&q=80",
       "imageHint": "brown suit"
     }
   ]
