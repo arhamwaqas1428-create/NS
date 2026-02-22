@@ -18,7 +18,7 @@ export type AiProductRecommenderInput = z.infer<typeof AiProductRecommenderInput
 const AiProductRecommenderOutputSchema = z.object({
   recommendations: z.array(
     z.object({
-      category: z.enum(['Daily Wear Collection', 'Occasional / Party Wear Collection']).describe('The main product category.'),
+      category: z.enum(['Daily Wear Collection']).describe('The main product category.'),
       itemType: z.string().describe('The specific type of clothing item from the catalog.'),
       description: z.string().describe('A brief explanation of why this item is recommended for the user\'s needs.'),
       priceRange: z.string().describe('The estimated Pakistani Rupee (PKR) price range for this item, e.g., "PKR 1,500 – PKR 4,500".'),
@@ -47,17 +47,10 @@ Here is the "NS Fashion Wear" product catalog:
   - Trousers / jeans
   Price Range: PKR 1,500 – PKR 4,500
 
-**Occasional / Party Wear Collection:**
-  - Formal dresses
-  - Designer outfits
-  - Luxury pret wear
-  - Embroidered dresses
-  - Festive wear
-  Price Range: PKR 4,000 – PKR 15,000
-
 The user has described their fashion needs as follows: "{{{query}}}"
 
 Please analyze the user's request and recommend relevant items from the catalog. For each recommendation, specify the category, item type, a brief description of why it's suitable, and its realistic Pakistani Rupee (PKR) price range.
+If the user's query is for something outside the Daily Wear Collection (e.g. party or formal wear), politely inform them that you can only provide recommendations for daily wear and return an empty list of recommendations.
 If no suitable items are found, return an empty list of recommendations.
 `,
 });

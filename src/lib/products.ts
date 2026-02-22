@@ -23,17 +23,6 @@ const womenProductSizeChart = JSON.stringify(
   2
 );
 
-const menSuitSizeChart = JSON.stringify(
-  {
-    'S (38)': { bust: '96-99cm', waist: '81-84cm', hips: '96-99cm' },
-    'M (40)': { bust: '100-103cm', waist: '85-88cm', hips: '100-103cm' },
-    'L (42)': { bust: '104-107cm', waist: '89-92cm', hips: '104-107cm' },
-    'XL (44)': { bust: '108-111cm', waist: '93-96cm', hips: '108-111cm' },
-  },
-  null,
-  2
-);
-
 const allProductsData = [
   {
     id: 'dw01',
@@ -67,46 +56,6 @@ const allProductsData = [
     category: 'daily' as 'daily' | 'occasional',
     itemType: 'Trousers / jeans',
   },
-  {
-    id: 'ow01',
-    name: 'Classic Black Formal Suit',
-    price: 'PKR 14,500',
-    imageId: 'ow01',
-    category: 'occasional' as 'daily' | 'occasional',
-    itemType: 'Formal Suit',
-  },
-  {
-    id: 'ow02',
-    name: 'Charcoal Modern Business Suit',
-    price: 'PKR 13,000',
-    imageId: 'ow02',
-    category: 'occasional' as 'daily' | 'occasional',
-    itemType: 'Business Suit',
-  },
-  {
-    id: 'ow03',
-    name: 'Navy Blue Premium Suit',
-    price: 'PKR 15,000',
-    imageId: 'ow03',
-    category: 'occasional' as 'daily' | 'occasional',
-    itemType: 'Premium Suit',
-  },
-  {
-    id: 'ow04',
-    name: 'Light Grey Smart Casual Suit',
-    price: 'PKR 11,500',
-    imageId: 'ow04',
-    category: 'occasional' as 'daily' | 'occasional',
-    itemType: 'Smart Casual Suit',
-  },
-  {
-    id: 'ow05',
-    name: 'Dark Brown Elegant Suit',
-    price: 'PKR 12,800',
-    imageId: 'ow05',
-    category: 'occasional' as 'daily' | 'occasional',
-    itemType: 'Elegant Suit',
-  },
 ];
 
 export const allProducts: Product[] = allProductsData.map((p) => {
@@ -117,7 +66,7 @@ export const allProducts: Product[] = allProductsData.map((p) => {
   const product: Product = {
     ...p,
     image,
-    sizeChart: p.category === 'occasional' ? menSuitSizeChart : womenProductSizeChart,
+    sizeChart: womenProductSizeChart,
     category: p.category,
   };
   return product;
@@ -126,6 +75,4 @@ export const allProducts: Product[] = allProductsData.map((p) => {
 export const dailyWearProducts: Product[] = allProducts.filter(
   (p) => p.category === 'daily'
 );
-export const occasionalWearProducts: Product[] = allProducts.filter(
-  (p) => p.category === 'occasional'
-);
+export const occasionalWearProducts: Product[] = [];

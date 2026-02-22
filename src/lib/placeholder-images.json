@@ -35,36 +35,6 @@
       "description": "A pair of well-fitted trousers",
       "imageUrl": "https://images.unsplash.com/photo-1633963643586-1a39077623be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwdHJvdXNlcnN8ZW58MHx8fHwxNzcxNjgzMzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fashion trousers"
-    },
-    {
-      "id": "ow01",
-      "description": "A sharp black two-piece suit with a white dress shirt and slim black tie. Clean, elegant look suitable for business meetings, weddings, or formal events. Hair neatly styled, confident professional pose.",
-      "imageUrl": "https://images.unsplash.com/photo-1593032465175-39a834a3818e?auto=format&fit=crop&w=687&q=80",
-      "imageHint": "black suit"
-    },
-    {
-      "id": "ow02",
-      "description": "Dark charcoal suit paired with a black shirt (no tie) for a contemporary executive style. Slightly relaxed yet powerful appearance, ideal for corporate leaders or entrepreneurs.",
-      "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=687&q=80",
-      "imageHint": "charcoal suit"
-    },
-    {
-      "id": "ow03",
-      "description": "Deep navy tailored suit with white shirt and matching tie. Luxury wristwatch visible, hand adjusting tie for a dynamic pose. Perfect for high-end business or formal occasions.",
-      "imageUrl": "https://images.unsplash.com/photo-1508243774391-6c5846c4a5de?auto=format&fit=crop&w=687&q=80",
-      "imageHint": "navy suit"
-    },
-    {
-      "id": "ow04",
-      "description": "Light grey suit with a black open-collar shirt and pocket square. Stylish, modern gentleman vibe suitable for parties, networking events, or fashion shoots.",
-      "imageUrl": "https://images.unsplash.com/photo-1561328325-089a80606883?auto=format&fit=crop&w=687&q=80",
-      "imageHint": "grey suit"
-    },
-    {
-      "id": "ow05",
-      "description": "Rich brown suit with black shirt for a sophisticated evening look. Hands adjusting blazer button, giving a confident and refined personality impression.",
-      "imageUrl": "https://images.unsplash.com/photo-1550937669-04a43a758715?auto=format&fit=crop&w=687&q=80",
-      "imageHint": "brown suit"
     }
   ]
 }
