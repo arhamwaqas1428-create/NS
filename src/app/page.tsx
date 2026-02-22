@@ -1,6 +1,5 @@
 import { HomeHero } from '@/components/page/home-hero';
 import { ProductCollections } from '@/components/page/product-collections';
-import { AiAssistantSection } from '@/components/page/ai-assistant-section';
 import { Footer } from '@/components/page/footer';
 
 export default function Home() {
@@ -9,7 +8,6 @@ export default function Home() {
       <HomeHero />
       <main className="flex-1">
         <ProductCollections />
-        <AiAssistantSection />
       </main>
       <Footer />
     </div>

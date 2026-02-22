@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { Search, MessageCircle } from "lucide-react";
-import { useState } from "react";
 
 interface NavLink {
   href: string;
@@ -13,30 +12,13 @@ interface NavLink {
 }
 
 export function HomeHero() {
-  const [email, setEmail] = useState("");
 
   const navLinks: NavLink[] = [
     { href: '/#collections', label: 'Collections' },
-    { href: '/#ai-assistant', label: 'AI Assistant' },
     { href: '/#about', label: 'About Us' },
   ];
   
   const backgroundImage = "https://i.ibb.co/ZzvqN84g/unnamed-2.png";
-
-  const avatarSrcList = [
-      "https://picsum.photos/seed/avatar1/32/32",
-      "https://picsum.photos/seed/avatar2/32/32",
-      "https://picsum.photos/seed/avatar3/32/32",
-  ];
-  const userCount = 1000;
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if (!email) return;
-    console.log("Waitlist submitted:", email);
-    alert(`Thank you for joining with ${email}! We'll be in touch.`);
-    setEmail("");
-  };
 
   return (
     <div className="relative h-screen w-full text-white bg-black">
@@ -80,55 +62,12 @@ export function HomeHero() {
 
         <div className="container mx-auto px-4 relative z-20 flex h-full items-center">
             <div className="max-w-xl">
-                 <div className="flex items-center mb-4">
-                    <div className="flex -space-x-2 pr-2">
-                        {avatarSrcList.map((src, idx) => (
-                        <Image
-                            key={idx}
-                            className="h-8 w-8 rounded-full ring-2 ring-background/50"
-                            src={src}
-                            alt={`User avatar ${idx + 1}`}
-                            width={32}
-                            height={32}
-                        />
-                        ))}
-                    </div>
-                    <p className="ml-3 text-sm text-gray-300">
-                        {userCount.toLocaleString()}+ users have joined
-                    </p>
-                </div>
-
                 <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
                     NS Fashion Wear
                 </h1>
                 <p className="mt-4 font-body text-lg md:text-xl lg:text-2xl italic text-gray-300">
                     Style for Every Day & Every Occasion
                 </p>
-
-                <form
-                    className="mt-8 flex w-full max-w-sm"
-                    onSubmit={handleSubmit}
-                    aria-label="Waitlist signup"
-                >
-                    <label htmlFor="email" className="sr-only">
-                        Email address
-                    </label>
-                    <input
-                        id="email"
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        placeholder="Enter your email to join"
-                        className="w-full px-4 py-3 rounded-l-md border-0 text-black placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-primary/80"
-                        required
-                    />
-                    <button
-                        type="submit"
-                        className="bg-white text-black font-bold px-5 py-3 rounded-r-md hover:bg-gray-200 transition-colors whitespace-nowrap"
-                    >
-                        Join Waitlist
-                    </button>
-                </form>
 
             </div>
         </div>

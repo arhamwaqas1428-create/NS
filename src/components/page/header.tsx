@@ -12,7 +12,6 @@ export function Header() {
 
   const navLinks = [
     { href: '/#collections', label: 'Collections' },
-    { href: '/#ai-assistant', label: 'AI Assistant' },
     { href: '/#about', label: 'About Us' },
   ];
 
