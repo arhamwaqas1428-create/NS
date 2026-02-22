@@ -29,7 +29,7 @@ const allProductsData = [
     name: 'Ethereal Casual Shirt',
     price: 'PKR 2,800',
     imageId: 'dw01',
-    category: 'daily',
+    category: 'daily' as 'daily' | 'occasional',
     itemType: 'Casual shirt',
   },
   {
@@ -37,7 +37,7 @@ const allProductsData = [
     name: 'Urban Minimalist Tee',
     price: 'PKR 1,500',
     imageId: 'dw02',
-    category: 'daily',
+    category: 'daily' as 'daily' | 'occasional',
     itemType: 'T-shirt',
   },
   {
@@ -45,23 +45,15 @@ const allProductsData = [
     name: 'Sun-kissed Day Dress',
     price: 'PKR 3,500',
     imageId: 'dw03',
-    category: 'daily',
+    category: 'daily' as 'daily' | 'occasional',
     itemType: 'Everyday dress',
-  },
-  {
-    id: 'dw04',
-    name: 'Lahori Charm Kurti',
-    price: 'PKR 3,200',
-    imageId: 'dw04',
-    category: 'daily',
-    itemType: 'Kurti',
   },
   {
     id: 'dw06',
     name: 'Boulevard Trousers',
     price: 'PKR 2,900',
     imageId: 'dw06',
-    category: 'daily',
+    category: 'daily' as 'daily' | 'occasional',
     itemType: 'Trousers / jeans',
   },
   {
@@ -69,7 +61,7 @@ const allProductsData = [
     name: 'Midnight Gala Gown',
     price: 'PKR 12,000',
     imageId: 'ow01',
-    category: 'occasional',
+    category: 'occasional' as 'daily' | 'occasional',
     itemType: 'Formal dress',
   },
   {
@@ -77,7 +69,7 @@ const allProductsData = [
     name: 'Royal Garden Ensemble',
     price: 'PKR 15,000',
     imageId: 'ow02',
-    category: 'occasional',
+    category: 'occasional' as 'daily' | 'occasional',
     itemType: 'Designer outfit',
   },
   {
@@ -85,7 +77,7 @@ const allProductsData = [
     name: 'Golden Hour Pret',
     price: 'PKR 8,500',
     imageId: 'ow03',
-    category: 'occasional',
+    category: 'occasional' as 'daily' | 'occasional',
     itemType: 'Luxury pret wear',
   },
   {
@@ -93,7 +85,7 @@ const allProductsData = [
     name: 'Zardozi Embroidered Dream',
     price: 'PKR 14,000',
     imageId: 'ow04',
-    category: 'occasional',
+    category: 'occasional' as 'daily' | 'occasional',
     itemType: 'Embroidered dress',
   },
   {
@@ -101,7 +93,7 @@ const allProductsData = [
     name: 'Chand Raat Festive Wear',
     price: 'PKR 9,800',
     imageId: 'ow05',
-    category: 'occasional',
+    category: 'occasional' as 'daily' | 'occasional',
     itemType: 'Festive wear',
   },
   {
@@ -109,10 +101,10 @@ const allProductsData = [
     name: 'Opulent Sharara Suit',
     price: 'PKR 13,500',
     imageId: 'ow06',
-    category: 'occasional',
+    category: 'occasional' as 'daily' | 'occasional',
     itemType: 'Sharara Suit',
   },
-] as const;
+];
 
 export const allProducts: Product[] = allProductsData.map((p) => {
   const image = PlaceHolderImages.find((img) => img.id === p.imageId);
@@ -123,6 +115,7 @@ export const allProducts: Product[] = allProductsData.map((p) => {
     ...p,
     image,
     sizeChart: productSizeChart,
+    category: p.category,
   };
   return product;
 });
