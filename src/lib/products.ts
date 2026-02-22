@@ -112,7 +112,7 @@ const allProductsData = [
     category: 'occasional',
     itemType: 'Sharara Suit',
   },
-];
+] as const;
 
 export const allProducts: Product[] = allProductsData.map((p) => {
   const image = PlaceHolderImages.find((img) => img.id === p.imageId);
