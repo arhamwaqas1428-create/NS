@@ -119,11 +119,12 @@ export const allProducts: Product[] = allProductsData.map((p) => {
   if (!image) {
     throw new Error(`Image with id ${p.imageId} not found for product ${p.id}`);
   }
-  return {
+  const product: Product = {
     ...p,
     image,
     sizeChart: productSizeChart,
   };
+  return product;
 });
 
 export const dailyWearProducts: Product[] = allProducts.filter(
