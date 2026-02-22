@@ -12,12 +12,23 @@ export type Product = {
   sizeChart: string;
 };
 
-const productSizeChart = JSON.stringify(
+const womenProductSizeChart = JSON.stringify(
   {
     S: { bust: '86-89cm', waist: '69-71cm', hips: '94-97cm' },
     M: { bust: '91-94cm', waist: '74-76cm', hips: '99-102cm' },
     L: { bust: '97-102cm', waist: '79-84cm', hips: '104-109cm' },
     XL: { bust: '104-109cm', waist: '86-91cm', hips: '112-117cm' },
+  },
+  null,
+  2
+);
+
+const menSuitSizeChart = JSON.stringify(
+  {
+    'S (38)': { bust: '96-99cm', waist: '81-84cm', hips: '96-99cm' },
+    'M (40)': { bust: '100-103cm', waist: '85-88cm', hips: '100-103cm' },
+    'L (42)': { bust: '104-107cm', waist: '89-92cm', hips: '104-107cm' },
+    'XL (44)': { bust: '108-111cm', waist: '93-96cm', hips: '108-111cm' },
   },
   null,
   2
@@ -58,51 +69,43 @@ const allProductsData = [
   },
   {
     id: 'ow01',
-    name: 'Midnight Gala Gown',
-    price: 'PKR 12,000',
+    name: 'Classic Black Formal Suit',
+    price: 'PKR 14,500',
     imageId: 'ow01',
     category: 'occasional' as 'daily' | 'occasional',
-    itemType: 'Formal dress',
+    itemType: 'Formal Suit',
   },
   {
     id: 'ow02',
-    name: 'Royal Garden Ensemble',
-    price: 'PKR 15,000',
+    name: 'Charcoal Modern Business Suit',
+    price: 'PKR 13,000',
     imageId: 'ow02',
     category: 'occasional' as 'daily' | 'occasional',
-    itemType: 'Designer outfit',
+    itemType: 'Business Suit',
   },
   {
     id: 'ow03',
-    name: 'Golden Hour Pret',
-    price: 'PKR 8,500',
+    name: 'Navy Blue Premium Suit',
+    price: 'PKR 15,000',
     imageId: 'ow03',
     category: 'occasional' as 'daily' | 'occasional',
-    itemType: 'Luxury pret wear',
+    itemType: 'Premium Suit',
   },
   {
     id: 'ow04',
-    name: 'Zardozi Embroidered Dream',
-    price: 'PKR 14,000',
+    name: 'Light Grey Smart Casual Suit',
+    price: 'PKR 11,500',
     imageId: 'ow04',
     category: 'occasional' as 'daily' | 'occasional',
-    itemType: 'Embroidered dress',
+    itemType: 'Smart Casual Suit',
   },
   {
     id: 'ow05',
-    name: 'Chand Raat Festive Wear',
-    price: 'PKR 9,800',
+    name: 'Dark Brown Elegant Suit',
+    price: 'PKR 12,800',
     imageId: 'ow05',
     category: 'occasional' as 'daily' | 'occasional',
-    itemType: 'Festive wear',
-  },
-  {
-    id: 'ow06',
-    name: 'Opulent Sharara Suit',
-    price: 'PKR 13,500',
-    imageId: 'ow06',
-    category: 'occasional' as 'daily' | 'occasional',
-    itemType: 'Sharara Suit',
+    itemType: 'Elegant Suit',
   },
 ];
 
@@ -114,7 +117,7 @@ export const allProducts: Product[] = allProductsData.map((p) => {
   const product: Product = {
     ...p,
     image,
-    sizeChart: productSizeChart,
+    sizeChart: p.category === 'occasional' ? menSuitSizeChart : womenProductSizeChart,
     category: p.category,
   };
   return product;

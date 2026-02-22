@@ -38,39 +38,33 @@
     },
     {
       "id": "ow01",
-      "description": "A beautiful formal dress on a mannequin.",
-      "imageUrl": "https://images.unsplash.com/photo-1598288293933-2c3b2713e513?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-      "imageHint": "evening gown"
+      "description": "A sharp black two-piece suit with a white dress shirt and slim black tie.",
+      "imageUrl": "https://images.unsplash.com/photo-1593005510531-c8494de7448d?auto=format&fit=crop&w=687&q=80",
+      "imageHint": "black suit"
     },
     {
       "id": "ow02",
-      "description": "An intricate designer outfit for occasions.",
-      "imageUrl": "https://images.unsplash.com/photo-1614728263952-87ea21f3f886?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-      "imageHint": "designer dress"
+      "description": "Dark charcoal suit paired with a black shirt (no tie).",
+      "imageUrl": "https://images.unsplash.com/photo-1613229679117-0d3599345511?auto=format&fit=crop&w=687&q=80",
+      "imageHint": "charcoal suit"
     },
     {
       "id": "ow03",
-      "description": "Luxury pret wear on a mannequin.",
-      "imageUrl": "https://images.unsplash.com/photo-1550974953-668b58412675?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-      "imageHint": "couture dress"
+      "description": "Deep navy tailored suit with white shirt and matching tie.",
+      "imageUrl": "https://images.unsplash.com/photo-1617127354924-3c8736444530?auto=format&fit=crop&w=687&q=80",
+      "imageHint": "navy suit"
     },
     {
       "id": "ow04",
-      "description": "A heavily embroidered dress.",
-      "imageUrl": "https://images.unsplash.com/photo-1617296317135-43a13531b239?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-      "imageHint": "embroidered dress"
+      "description": "Light grey suit with a black open-collar shirt and pocket square.",
+      "imageUrl": "https://images.unsplash.com/photo-1564328570530-3e27a72a76d8?auto=format&fit=crop&w=687&q=80",
+      "imageHint": "grey suit"
     },
     {
       "id": "ow05",
-      "description": "Festive Pakistani attire.",
-      "imageUrl": "https://images.unsplash.com/photo-1617296317215-49272522c07b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-      "imageHint": "pakistani dress"
-    },
-    {
-      "id": "ow06",
-      "description": "Elegant Sharara Suit for events.",
-      "imageUrl": "https://images.unsplash.com/photo-1630491681575-3c1d2d85743b?auto=format&fit=crop&w=687&q=80",
-      "imageHint": "sharara suit"
+      "description": "Rich brown suit with black shirt for a sophisticated evening look.",
+      "imageUrl": "https://images.unsplash.com/photo-1621217315412-f0c2a5712136?auto=format&fit=crop&w=687&q=80",
+      "imageHint": "brown suit"
     }
   ]
 }
